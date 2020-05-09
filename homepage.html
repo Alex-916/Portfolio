@@ -1,0 +1,94 @@
+﻿ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="homepage.css" type="text/css">
+  <script>
+    function dropDown(x){
+      document.getElementById(x).classList.toggle("show");
+    }
+
+  </script>
+  <title>Student Home Page</title>
+</head>
+<body>
+  <div class="wrapper"> 
+  <nav>
+    <ul>
+      <li><a href="#info">Information</a></li>
+      <li><a href="#edu1">Education</a></li>
+      <li><a href="#as1">Assignments</a></li>
+    </ul>
+  </nav>
+  <aside>
+    <ul class="menu">
+      <li><input id="box" type="checkbox" name="menu"/>
+        <label for = "box">Assignments</label>
+        <ul>
+          <li class="selector"><a href="#">Pacific Trails Resort - Case Study</a>
+            <ul>
+              <li class="sub"><a href="html/assignments/pacific_trails/ch12/index.html" target="_blank">ch12</a></li>
+            </ul>
+          </li>
+          <li class="selector"><a href="html/assignments/finalproj/index.html">Final Project</a></li>
+        </ul>
+      </li>
+    </ul>
+  </aside>
+  <header>
+    <div id="info">
+      <div class="banner-txt">
+        <h1>CISW 320 - Spring 2019 - 2nd 8 week - Alex F.</h1>
+      </div> 
+      
+          <img class="raven" src="html/images/raven.jpg" alt="raven">
+          <div id="intro">
+            <h2>Introduction</h2>
+            <p>Hello, my name is Alex Flores. I am currently a Sacramento City College student but I also attend ARC and FLC. My hobbies include drawning, going on walks / bike rides, and listening music. My major is computer science. I want to expand my programming skill as much as I possibly can.</p>
+        </div> 
+      
+    </div> 
+  </header>
+  <main>
+  <div id="edu1">
+    <div id="ed">
+      <h2>Education Plans</h2>
+      <p>After I recieve my A.S degree, I will transfer to Sac State to try and recieve my Bachelors degree in computer science. Once I gradute with an A.S degree, I will try working for intel as an intern programmer.</p>
+    </div> 
+    <div class="grim">
+      <img src="html/images/reaper.jpg" alt="grim">
+    </div> 
+  </div> 
+  <div id="as1">
+    <div class="billboards">
+      <ul>
+        <li class="top"><a href="#as1" onclick="dropDown(1)">Pacific Trails Resort - Case Study</a>
+          <ul class="hide" id=1>
+            <li class="subz"><a href="html/assignments/pacific_trails/ch12/index.html" target="_blank">ch12</a></li>
+          </ul>
+        </li>
+        <li class="top"><a href="#as1" onclick="dropDown(2)">Final Project</a>
+          <ul class="hide" id=2>
+            <li class="subz"><a href="html/assignments/finalproj/index.html" target="_blank">AfterShock</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div> 
+      <div class="ghost">
+      <img src="html/images/raven.jpg" alt="ghost">
+    </div> 
+    <div class="footer">
+      <div style="position: relative; left:-50%;">
+        Copyright © 2019 Alex Flores<br><a href= "mailto:w1501689@apps.losrios.edu"w1501689@apps.losrios.edu</a>
+      </div> 
+    </div> 
+  </div> 
+  <div class="return">
+    <a href="#info"><img src="html/images/lurking.png" alt="return to top"></a>
+  </div> 
+  </main>
+</div> 
+</body>
+</html>

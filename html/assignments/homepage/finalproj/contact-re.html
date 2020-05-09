@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<link href="shocks.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Alex Flores">
+	<meta name="description" content="AfterShcok is a two day rock music fetival that is held every year in Sacrameto CA. In this event a lot of well known artists come to preform live for thousands of fans. Each year this massive event sells out.">
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html15.js">
+	<![endif]-->
+	</head>
+<body>
+<div id="wrapper">
+<header id="mainheader">
+
+</header>
+<div id="artistList">
+	<h3>Artists</h3><br>
+	<ul>
+		<li><a href="16-artist.html">2016 Artists</a></li>
+		<li><a href="17-artist.html">2017 Artists</a></li>
+		<li><a href="18-artist.html">2018 Artists</a></li>
+	</ul>
+</div>
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="contact-re.html">Release - Contact</a></li>
+		<li><a href="information.html">About</a></li>
+	</ul>
+	</nav>
+<br>
+<main>
+<h2>2018 Promo Release</h2><br>
+<p style="text-align: center;">Below is the 2018 Promo Teaser Video</p>
+<div style="text-align: center;">
+<iframe width="925" height="315" src="https://www.youtube.com/embed/m2vQxSOPl9M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ <p style="font-size: 0.8em; text-align: center;"><a href="https://www.youtube.com/embed/m2vQxSOPl9M" target="_blank">AfterShock Promo</a></p>
+ </div>
+<h3>Contact</h3>
+<p>Got a question regarding the festival? This is the place to do it!</p>
+<p>Required information is marked with an asterisk (*)</p>
+<form name="contact" method="post" action="mailto:aftershockform.php">
+		<label for="myName">* Name:</label>
+		<input type="text" name="myName" id="myName" class="required"><br>
+		<label for="myEmail">* E-mail:</label>
+		<input type="email" name="myEmail" id="myEmail" class="required email">
+		<fieldset>
+			<legend>Are you asking a question or sumbitting additonal information?</legend>
+			<input type="radio" name="subType" id="rQuestion" value="question">Question<br>
+			<input type="radio" name="subType" id="rInfo" value="music">Information submission<br>
+		</fieldset>
+		<label for="myComments">* Comments:</label><br>
+		<textarea rows="12" cols="70" name="myComments" id="myComments" class="required"></textarea><br>
+		<input type="submit" value="Send Now" name="mySubmit" id="mySubmit">
+</form>
+</main>
+<footer>
+<a> Coded 5.9.2019 - Alex - CISW 320 2nd 8wk Spring 2019 </a>
+</footer>
+</div>
+</body>
+</html>
