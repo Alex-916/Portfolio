@@ -315,6 +315,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: 1.5rem; }
 
+
 h5, .h5 {
   font-size: 1.25rem; }
 
@@ -7344,17 +7345,18 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding: 15px 0; } }
-  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
     font-size: 16px;
     padding-top: .8rem;
     padding-bottom: .8rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #4d4d4d;
+    color: #ffffff;
     font-weight: 500;
     position: relative;
     z-index: 0;
-    opacity: 1 !important; }
+    opacity: 1 !important;
+}
     @media (min-width: 992px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:after {
         position: absolute;
@@ -7364,7 +7366,6 @@ h1, h2, h3, h4, h5,
         width: 70%;
         height: 6px;
         content: '';
-        background: #fcd307;
         margin: 0 auto;
         z-index: -1;
         opacity: 0;
@@ -7611,7 +7612,6 @@ h1, h2, h3, h4, h5,
           height: 10px;
           width: 100%;
           content: '';
-          background: #fcd307;
           z-index: -1; }
       .hero-wrap .forth .text h1 {
         font-weight: 800;
@@ -8365,13 +8365,14 @@ textarea.form-control {
     box-shadow: 0 0 0 0 rgba(252, 211, 7, 0); } }
 
 .heading-section .subheading {
-  font-weight: 600;
-  font-size: 13px;
-  display: block;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #fcd307; }
+    font-weight: 600;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff0000;
+}
 
 .heading-section h2 {
   font-size: 50px;
