@@ -7323,7 +7323,7 @@ h1, h2, h3, h4, h5,
         font-size: 20px; } }
 .ftco-navbar-light .navbar-brand {
     color: #fff;
-    background: #373a40;
+    background: ;
 }
     @media (min-width: 992px) {
       .ftco-navbar-light .navbar-brand {
@@ -7336,7 +7336,7 @@ h1, h2, h3, h4, h5,
             bottom: 0;
             content: '';
             width: 360%;
-            background: #373a40;
+            background: ;
         } }
     .ftco-navbar-light .navbar-brand.navbar-black {
       color: #fff; }
