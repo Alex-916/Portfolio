@@ -7321,21 +7321,23 @@ h1, h2, h3, h4, h5,
       padding: 0 10px; }
       .ftco-navbar-light .navbar-brand {
         font-size: 20px; } }
-  .ftco-navbar-light .navbar-brand {
+.ftco-navbar-light .navbar-brand {
     color: #fff;
-    background: #000000; }
+    background: #373a40;
+}
     @media (min-width: 992px) {
       .ftco-navbar-light .navbar-brand {
         padding: 30px 30px 30px 0;
         position: relative; }
         .ftco-navbar-light .navbar-brand:after {
-          position: absolute;
-          top: 0;
-          right: 100%;
-          bottom: 0;
-          content: '';
-          width: 360%;
-          background: #000000; } }
+            position: absolute;
+            top: 0;
+            right: 100%;
+            bottom: 0;
+            content: '';
+            width: 360%;
+            background: #373a40;
+        } }
     .ftco-navbar-light .navbar-brand.navbar-black {
       color: #fff; }
       @media (max-width: 991.98px) {
