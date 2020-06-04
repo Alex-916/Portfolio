@@ -7498,7 +7498,7 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         color: #fff !important; }
     .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-      border-color: #fcd307; }
+      border-color: #ff0000; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light.scrolled .navbar-nav {
         background: none;
@@ -7541,7 +7541,7 @@ h1, h2, h3, h4, h5,
         .ftco-navbar-light.scrolled .navbar-brand {
           padding: 15px 40px 15px 0; } }
       .ftco-navbar-light.scrolled .navbar-brand span {
-        color: #fcd307; }
+        color: #ff0000; }
 
 .navbar-brand {
   font-weight: 900;
